@@ -4,6 +4,10 @@
     "target": "es2016",
     "module": "commonjs",
     "moduleResolution": "node",
+    "lib": ["es6", "dom"],
+    "types": ["reflect-metadata"],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
 
     "allowJs": false,
 
